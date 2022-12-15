@@ -3,7 +3,8 @@
 #include "ros/ros.h"
 #include "std_msgs/Float64.h"
 #include "std_msgs/String.h"
-
+/**
+Color Detecting Robot*/
 ros::Publisher leftWheelPub, rightWheelPub;
 
 void commandsCallback(const std_msgs::String::ConstPtr& msg) {
